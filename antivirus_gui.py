@@ -4,7 +4,7 @@ import psutil
 import requests
 
 # GitHub raw URL for the suspicious process list
-GITHUB_PROCESS_URL = "https://raw.githubusercontent.com/<your-username>/antivirus-signatures/main/processes.txt"
+GITHUB_PROCESS_URL = "https://github.com/loki-smip/ant/processes.txt"
 
 # Fetch the list of suspicious apps
 def fetch_suspicious_apps():
